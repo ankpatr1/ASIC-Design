@@ -51,6 +51,15 @@ docker run --rm \
 - GTKWave window opens.
 - You can drag & drop signals (clk, rst, ns_light, etc.) to the waveform panel to analyze the FSM operation.
 
+## 📹 Screen Recording
+
+> This project includes a screen recording (`.mov` file) showing the traffic light FSM in action.
+
+Due to GitHub's file size limits, you must download it manually:
+
+[➡️ Click here to download the screen recording](./Screen%20Recording%202025-06-17%20at%205.55.57%E2%80%AFpm.mov)
+
+
 
 
 
