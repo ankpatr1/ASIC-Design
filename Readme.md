@@ -1,4 +1,4 @@
-##🚦 Traffic Light FSM – Simulation & Waveform Viewing##
+🚦 Traffic Light FSM – Simulation & Waveform Viewing
 
 This project implements a Verilog based finite state machine (FSM) to control a 4-way traffic light system. Simulation is done using iverilog, and waveform visualization is handled via GTKWave in Docker.
 
