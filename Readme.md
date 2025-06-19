@@ -26,12 +26,9 @@ Docker Desktop – for running GTKWave in a container
 
 Download & install from: https://www.docker.com/products/docker-desktop
 
-Then start it:
-open -a Docker
+Then start it: open -a Docker
 
-6. Pull GTKWave Docker Image
-
-docker pull hdlc/gtkwave
+6. Pull GTKWave Docker Image : docker pull hdlc/gtkwave
 
 7. Navigate to Your Project Folder
 
@@ -40,10 +37,7 @@ ls
 chmod +x run.sh
 ./run.sh
 xhost + 127.0.0.1
-docker run --rm \
-  -e DISPLAY=host.docker.internal:0 \
-  -v $PWD:/data \
-  hdlc/gtkwave gtkwave /data/dump.vcd
+docker run --rm \ -e DISPLAY=host.docker.internal:0 \ -v $PWD:/data \ hdlc/gtkwave gtkwave /data/dump.vcd
 
 
  ✅ Output
